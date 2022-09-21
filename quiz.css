@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 10px;
+  background-color: rgb(235, 230, 228);
+
+}
+
+.quiz{
+  width: 100%;
+  background-color: rgb(182, 119, 48);
+  color: bisque;
+  padding: 20px 45px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.time{
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  color: rgb(245, 220, 189);
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(240, 190, 124);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+span{
+  background-color: chocolate;
+  padding: 4px;
+  border-radius: 4px;
+
+}
+
+.QST1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 20px;
+  font-weight: bold;
+
+
+}
+
+.one, .two, .three, .four{
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(241, 150, 65, 0.575);
+  border-radius: 10px;
+}
+
+.two{
+  background-color: darkseagreen;
+}
+
+.three{
+  background-color: rgb(161, 67, 67);
+}
+
+.foot1{
+  padding: 20px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot2{
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  flex-direction: right;
+ top: -43px;
+ left: 1200px;
+  outline: none;
+  background-color: rgb(216, 85, 85);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot2{
+  cursor: pointer;
+
+}
+
+.ghost{
+  text-indent: 20px;
+  text-shadow: blue 0.9px 2px 5px ;
+  line-height: 1.2em;
+  border: 2px dotted magenta;
+  background-color: rgb(106, 106, 136);
+  padding: 20px;
+
+}
+
+
+
+
+
+
+
